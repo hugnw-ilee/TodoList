@@ -137,21 +137,18 @@ class App extends Component {
                     <Button
                       variant="light"
                       style={{ marginRight: "10px" }}
-                      onClick={() => this.deleteItem(item.id)}
-                    >
+                      onClick={() => this.deleteItem(item.id)}>
                       Xóa
                     </Button>
                     <Button
                       variant="light"
                       style={{ marginRight: "10px" }}
-                      onClick={() => this.editItem(item.id)}
-                    >
+                      onClick={() => this.editItem(item.id)}>
                       Sửa
                     </Button>
                     <Button
                       variant="light"
-                      onClick={() => this.completeItem(item.id)}
-                    >
+                      onClick={() => this.completeItem(item.id)}>
                       Xong
                     </Button>
                   </div>
